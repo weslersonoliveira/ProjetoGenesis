@@ -1,0 +1,53 @@
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+ 
+  }
+
+
+.footer {
+  height: 47px;
+}
+.row > div p {
+  background: blueviolet;
+  padding: 10px
+}
+
+.content {
+  min-height: calc(100vh - 70px);
+}
+
+
+
+texto{
+  text-align: right;
+}
+
+textarea{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+  
+  .teste {
+    background: lightblue;
+    text-align: center;
+    color: blue;
+    line-height: 46px;
+    padding: 0 20px;
+  }
+  .teste1{
+    background-clip: border-box ;
+    text-decoration-style: wavy;
+    color: coral;
+    line-height: 30px;
+    padding: 0% 20px;
+  }
+ 
+  
+
+ 
