@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "ProjetoGenesis",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -10,7 +10,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.6",
     "siteFonts": [],
-    "uniqCompNum": 12,
+    "uniqCompNum": 15,
     "versionPublish": "4.8.6"
   },
   "pages": {
@@ -29,7 +29,7 @@
             "logo": true,
             "showBrand": true,
             "showButtons": false,
-            "sticky": true,
+            "sticky": false,
             "collapsed": true,
             "transparent": true,
             "color": "#fff",
@@ -129,7 +129,7 @@
             "logo": true,
             "showBrand": true,
             "showButtons": false,
-            "sticky": true,
+            "sticky": false,
             "collapsed": true,
             "transparent": true,
             "color": "#fff",
@@ -164,6 +164,115 @@
             }
           },
           "_anchor": "menu-2"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": "34",
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/tecnologia-960x640.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Inteligencia Artificial",
+          "text": "A inteligência artificial é um ramo de pesquisa da ciência da computação que busca, através de símbolos computacionais, construir mecanismos e/ou dispositivos que \r<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; simulem a capacidade do ser humano de pensar, resolver problemas, ou seja, de ser inteligente.</div>",
+          "alias": "purity/components",
+          "_tags": [
+            "Layout"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Mais</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-c"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/photo-4.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Paralisia Cerebral",
+          "text": "<p>A paralisia cerebral (PC) é uma enfermidade que ocorre em consequência à lesão do sistema nervoso central (SNC) \r</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; em desenvolvimento, podendo esta lesão ocorrer antes, durante ou após o nascimento.\r</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Devido a esta lesão, as crianças portadoras de PC tendem a apresentar diversas alterações tônicas, \r</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; posturais, de equilíbrio, bem como dificuldade na aquisição dos padrões normais do desenvolvimento humano,\r</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; dentre eles a marcha, \r</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sensibilidade, percepção, cognição, comportamento e comunicação.</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Layout"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Saiba Mais</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-e"
         }
       ]
     },
@@ -178,7 +287,7 @@
             "logo": true,
             "showBrand": true,
             "showButtons": false,
-            "sticky": true,
+            "sticky": false,
             "collapsed": true,
             "transparent": true,
             "color": "#fff",
