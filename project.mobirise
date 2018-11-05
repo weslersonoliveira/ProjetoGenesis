@@ -1,11 +1,12 @@
 {
   "settings": {
     "name": "ProjetoGenesis",
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
-      "styling": {}
+      "styling": {},
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.6",
@@ -334,8 +335,8 @@
             "bgColorRadio": false,
             "bgColor": "#fff",
             "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": "0.1"
+            "overlayColor": "#c8eeec",
+            "overlayOpacity": "0.6"
           },
           "title": "Fale Conosco",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Enviar</a>",
